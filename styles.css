@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'm6x11'; /* ESCOLHA UM NOME ÚNICO PARA SUA FONTE AQUI */
+  src: url('m6x11.ttf') format('truetype');
+  /*
+     IMPORTANTE: 'minha-fonte.ttf' deve ser o NOME EXATO do arquivo da sua fonte que você subiu.
+     Se você tiver variações (bold, italic), precisará de uma declaração @font-face para cada uma,
+     apontando para o respectivo arquivo TTF (ex: minha-fonte-bold.ttf).
+  */
+  font-weight: normal; /* Defina conforme o peso da sua fonte (normal, bold, 400, 700, etc.) */
+  font-style: normal;  /* Defina conforme o estilo da sua fonte (normal, italic) */
+  font-display: swap;  /* Recomendado para melhor performance no carregamento */
+}
+
+/* Opcional: Você pode definir uma classe ou aplicar a fonte a um elemento global aqui */
+/* Por exemplo, para usar a fonte em um parágrafo: */
+/*
+.minha-fonte-paragrafo {
+  font-family: 'MinhaFontePersonalizada', sans-serif;
+}
+*/
+
+/* Ou, para aplicar a fonte ao corpo do seu protótipo no Quant-UX (se apropriado): */
+/*
+body {
+  font-family: 'MinhaFontePersonalizada', sans-serif;
+}
+*/
